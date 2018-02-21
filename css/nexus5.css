@@ -99,3 +99,6 @@ body {
 .figure{
   text-align: center;
 }
+figure{
+  margin: 0;
+}
