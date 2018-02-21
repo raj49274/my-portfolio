@@ -6,10 +6,11 @@ This website describes about aditya raj or we can say biography of aditya Raj
 ## list of content
 * portfolio.html (webpage)
 * css folder
+  * style.css
   * ipad.css (450px - 780px)
   * mini.css (781px - 1050px)
   * nexus5.css (- 450px)
-  * style.css (1050px -)
+  * desktop.css (1050px -)
 * six images in images folder
 
 ## How to open on your pc
