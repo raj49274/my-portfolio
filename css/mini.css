@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: monospace, sans-serif;
-  margin-right: 1.5%;
-  margin-left: 1.5%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 #f1{
@@ -18,7 +18,7 @@ body {
 }
 
 #logo {
-  max-height: 70px;
+  max-height: 100px;
   margin-left: 25px;
   margin-top: 8px;
   margin-bottom:10px;
@@ -48,7 +48,8 @@ body {
 }
 
 #about{
-
+  width: 60%;
+  float: left;
 }
 
 
@@ -60,7 +61,8 @@ body {
 }
 
 #profile{
-  width: 100%
+  float: right;
+  width: 40%
 }
 
 #institute{
@@ -74,26 +76,26 @@ body {
   clear: both;
   display: flex;
   padding-bottom: 50px;
-  flex-direction: column;
 }
 
 
 #grade10{
   order: 1;
-  width: 100%;
+  width: 33.3%;
 }
 
 #grade12{
   order: 2;
-  width: 100%;
+  width: 33.3%;
 }
 #current{
   order: 3;
-  width: 100%;
+  width: 33.3%;
 }
 .study{
   width: 100%;
   padding: 5%;
+  height: 230px;
   min-height: 150px;
 }
 .figure{
