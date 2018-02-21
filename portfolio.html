@@ -8,51 +8,56 @@
       href="css/ipad.css">
     <link rel="stylesheet" media="screen and (max-width: 450px)"
         href="css/nexus5.css">
-    <link rel="stylesheet" media="screen and (min-width: 1050px)" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1050px) and (min-width: 781px)"
         href="css/mini.css">
+    <link rel="stylesheet" media="screen and (min-width: 1050px)" href="css/desktop.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   </head>
   <body>
-    <header id="f1">
+    <header id="heading">
       <img id="logo" src="images/student.png" alt="student logo">
-      <aside id="f12">
+      <div>
         <h1 class="name">aditya raj</h1>
         <h3 class="work">web developer</h3>
-      </aside>
+      </div>
     </header>
 
     <hr id="boundary">
-
-    <article id="about">
-      <h1>About myself</h1>
-      <p id="myself">My name is Aditya Raj and I am writing my own biography my
-           birth place is in Nalanda District located at Bihar state and country
-           is India. I was born on 24 August 1999 since from my childhood to 2014
-            I studied in the st. Joseph Academy  school  upto grade 10 and then
-            for my further study I joined resonance Institute located at
-             Kota( Rajasthan). After 2 year of the study I return back to my home
-              and decided to pursue my career in computer science and so I joined
-               Udacity nanodegree program to enhance my knowledge and this is my
-               story upto 2018 and  now My life is  on to live adventurous life.
-                Thanks
-      </p>
-    </article>
-    <img id="profile" src="images/aditya.jpg" alt="profile photo">
+    <main>
+      <article id="about">
+        <h1>About myself</h1>
+        <p id="myself">My name is Aditya Raj and I am writing my own biography my
+             birth place is in Nalanda District located at Bihar state and country
+             is India. I was born on 24 August 1999 since from my childhood to 2014
+              I studied in the st. Joseph Academy  school  upto grade 10 and then
+              for my further study I joined resonance Institute located at
+               Kota( Rajasthan). After 2 year of the study I return back to my home
+                and decided to pursue my career in computer science and so I joined
+                 Udacity nanodegree program to enhance my knowledge and this is my
+                 story upto 2018 and  now My life is  on to live adventurous life.
+                  Thanks
+        </p>
+      </article>
+      <figure id="profileBox">
+        <img id="profile" src="images/aditya.jpg" alt="profile photo">
+      </figure>
+    </main>
     <h2 id="institute">My Institutions</h2>
-    <footer id="school">
-      <figure id="grade10">
+    <section id="school">
+      <figure id="grade10" class="figureBox">
         <img class="study first" src="images/joseph.jpg" alt="st. joseph academy">
         <figcaption class="figure">St. joseph Academy</figcaption>
       </figure>
-      <figure id="grade12">
+      <figure id="grade12" class="figureBox">
         <img class="study second" src="images/resonance.jpg" alt="resonance institute">
         <figcaption class="figure">Resonance</figcaption>
       </figure>
-      <figure id="current">
+      <figure id="current" class="figureBox">
         <img class="study third" src="images/udacity.jpeg" alt="udacity online study">
         <figcaption class="figure">Udacity</figcaption>
       </figure>
-    </footer>
+    </section>
+
   </body>
 </html>
